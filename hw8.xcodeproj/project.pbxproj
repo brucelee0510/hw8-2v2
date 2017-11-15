@@ -14,6 +14,8 @@
 		05B4C1F71FB6C002006915EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B4C1F51FB6C002006915EA /* LaunchScreen.storyboard */; };
 		05B4C1FF1FB6C024006915EA /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4C1FE1FB6C024006915EA /* mainViewController.swift */; };
 		05B4C2011FB9B30E006915EA /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4C2001FB9B30E006915EA /* testViewController.swift */; };
+		05EC62271FBB4B0500210C8C /* GameModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EC62261FBB4B0500210C8C /* GameModal.swift */; };
+		05EC62291FBB4BBE00210C8C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EC62281FBB4BBE00210C8C /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		05B4C1F81FB6C002006915EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05B4C1FE1FB6C024006915EA /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		05B4C2001FB9B30E006915EA /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		05EC62261FBB4B0500210C8C /* GameModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModal.swift; sourceTree = "<group>"; };
+		05EC62281FBB4BBE00210C8C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +64,14 @@
 			children = (
 				05B4C1EC1FB6C002006915EA /* AppDelegate.swift */,
 				05B4C1EE1FB6C002006915EA /* ViewController.swift */,
-				05B4C1F01FB6C002006915EA /* Main.storyboard */,
-				05B4C1FE1FB6C024006915EA /* mainViewController.swift */,
 				05B4C2001FB9B30E006915EA /* testViewController.swift */,
 				05B4C1F31FB6C002006915EA /* Assets.xcassets */,
 				05B4C1F51FB6C002006915EA /* LaunchScreen.storyboard */,
 				05B4C1F81FB6C002006915EA /* Info.plist */,
+				05B4C1F01FB6C002006915EA /* Main.storyboard */,
+				05B4C1FE1FB6C024006915EA /* mainViewController.swift */,
+				05EC62261FBB4B0500210C8C /* GameModal.swift */,
+				05EC62281FBB4BBE00210C8C /* GameView.swift */,
 			);
 			path = hw8;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B4C1EF1FB6C002006915EA /* ViewController.swift in Sources */,
+				05EC62271FBB4B0500210C8C /* GameModal.swift in Sources */,
 				05B4C1ED1FB6C002006915EA /* AppDelegate.swift in Sources */,
 				05B4C2011FB9B30E006915EA /* testViewController.swift in Sources */,
+				05EC62291FBB4BBE00210C8C /* GameView.swift in Sources */,
 				05B4C1FF1FB6C024006915EA /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
