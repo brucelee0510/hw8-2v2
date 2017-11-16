@@ -83,7 +83,6 @@ class mainViewController: UIViewController{
 
     
     @IBAction func playerCall(_ sender: Any) {
-        
         game.appendCallHistory("player", Int(round(slider1.value)), Int(round(slider2.value)))
         if game.isComCallBluff(){       //電腦叫抓
             game.appendCallHistory("com", 0, 0)
@@ -102,11 +101,11 @@ class mainViewController: UIViewController{
         viewShowGameResult()
     }
     func viewShowGameResult(){
+        gameResult.isHidden=false
+        gameResultTitle.isHidden=false
+        gameResultDetail.isHidden=false
         gameResultDetail.text=game.gameResultDetail
         gameResult.text=game.gameResult
-        
-        print("executed")
-        print("\(game.getCallHistory())")
         callHistory.text=game.getCallHistory()
     }
 
